@@ -16,3 +16,4 @@ public class HiddenWord{
            {hidden+="+";}
            }
      return hidden;
+           }
