@@ -10,7 +10,7 @@ public class HiddenWord{
     for(int i=0;i<a.length();i++){
       if((puzzle.substring(i,i+1)).equals.(a.substring(i,i+1)))
       {hidden+=puzzle.substring(i,i+1));}
-      else(if(!puzzle.indexOf(a.substring(i,i+1)))
+      else(if(puzzle.indexOf(a.substring(i,i+1)==-1))
            {hidden+="*";}
            else
            {hidden+="+";}
